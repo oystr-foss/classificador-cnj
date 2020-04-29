@@ -1,0 +1,19 @@
+{
+  "name": "oystr-classificador-cnj",
+  "version": "1.0.0",
+  "description": "Classificador de numero CNJ para Tribunais.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:oystr-foss/classificador-cnj.git"
+  },
+  "author": "Raphael Casarotto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oystr-foss/classificador-cnj/issues"
+  },
+  "homepage": "https://github.com/oystr-foss/classificador-cnj#readme"
+}
