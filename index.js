@@ -5,10 +5,6 @@ module.exports = {
     return classifier.classify(process);
   },
   parseMany: function (processes) {
-    const resultList = [];
-    processes.forEach(process => {
-      resultList.push(classifier.classify(process));
-    });
-    return resultList;
+    return processes.map(classifier.classify);
   }
 }
